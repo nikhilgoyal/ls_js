@@ -2,8 +2,10 @@
 // output -> true if number is odd
 
 function isOdd(number) {
-  return number % 2 === 1 ? true : false;
+  return Math.abs(number) % 2 === 1;
 }
+
+// examples and test cases
 
 console.log(isOdd(2)); // => false
 console.log(isOdd(5)); // => true
