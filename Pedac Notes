@@ -1,0 +1,13 @@
+Pedac Notes
+
+p - problem
+e - example test case
+d - data struct
+a - algorithm
+c - code
+
+problem - input, output, requirement, indentity rules, mental model(o)
+example test case - validate understanding of the problem
+data struct - data representation from input to output
+algorithm - steps for converting input to output
+code (with intent) - implement
