@@ -7,5 +7,5 @@ searchWord("sed", text);
 
 function searchWord(word, text) {
   let regex = new RegExp(word, "gi");
-  let yo = text.replace(regex, `**${word.toUpperCase()}**`);
+  return text.replace(regex, `**${word.toUpperCase()}**`);
 }
